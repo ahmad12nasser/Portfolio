@@ -1,14 +1,14 @@
 .button {
-  background: ;
+  background: #D45900;
   border-radius: 15px;
-  color: #F5A62E;
+  color: #f37f12;
   border: none;
   outline: none;
   cursor: pointer;
 }
+
 @media screen and (max-width: 1000px) {
-  .form-control-sm {
-  }
+  .form-control-sm {}
 
   .navbar-nav {
     display: none;
@@ -18,10 +18,11 @@
     display: block;
   }
 
-  .navbar-toggler.collapsed + #navbarNav {
+  .navbar-toggler.collapsed+#navbarNav {
     display: block;
   }
-  .nav-link{
+
+  .nav-link {
     color: #FFF;
     text-align: center;
     font-family: Aclonica, ui-serif;
@@ -30,26 +31,34 @@
     font-weight: 400;
     line-height: normal;
   }
+
   .nav-link-btn {
     background: #D45900;
     border-radius: 15px;
-    padding: 10px 20px; /* Adjust padding as needed */
-    text-decoration: none; /* Remove underline from the link */
-    transition: background 0.3s ease; /* Add a smooth transition effect */
+    padding: 10px 20px;
+    /* Adjust padding as needed */
+    text-decoration: none;
+    /* Remove underline from the link */
+    transition: background 0.3s ease;
+    /* Add a smooth transition effect */
     color: #FFF;
     font-family: Aoboshi One, serif;
     font-size: 1036px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+
     &:hover {
-      background: #F39C12; /* Change background color on hover */
+      background: #f37f12;
+      /* Change background color on hover */
     }
   }
+
 }
 
 
 @media screen and (min-width: 1001px) {
+
   /* Show the menu links */
   .navbar-nav {
     display: flex;

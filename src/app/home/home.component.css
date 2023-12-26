@@ -1,0 +1,105 @@
+ /* Styles for the profile circle */
+ .profile-circle {
+     position: absolute;
+     top: auto;
+     left: auto;
+     margin-right: 600px;
+     width: 150px;
+     height: 150px;
+     border-radius: 50%;
+     overflow: hidden;
+ }
+
+ /* Styles for the profile image inside the circle */
+ .profile-image {
+     width: 100%;
+     height: 100%;
+     object-fit: cover;
+     border-radius: 50%;
+ }
+
+ .main-image {
+     filter: blur(5px);
+ }
+
+ .titre {
+     margin-left: 100px;
+ }
+
+ .title-job {
+     color: #FFF;
+     font-family: Aclonica;
+     font-size: 50px;
+     font-style: normal;
+     font-weight: 400;
+     line-height: normal;
+ }
+
+ .text-center {
+     color: #FFF;
+     font-family: Aclonica;
+     font-size: 80px;
+     font-style: normal;
+     font-weight: 400;
+     line-height: normal;
+ }
+
+ .text {
+     color: #FFF;
+     text-align: center;
+     font-family: Amaranth;
+     font-size: 20px;
+     font-style: normal;
+     font-weight: 400;
+     line-height: normal;
+ }
+
+
+
+ .icon-placeholder {
+     width: 30px;
+     height: 30px;
+     background-color: #ccc;
+ }
+
+ .skills-title {
+     color: #FFF;
+     text-align: center;
+     font-family: Baloo Bhaijaan;
+     font-size: 30px;
+     font-style: normal;
+     font-weight: 400;
+     line-height: normal;
+     margin-top: 50px;
+     margin-left: 50px;
+ }
+
+ .skill-icon-container {
+     display: flex;
+     gap: 10px;
+     justify-content: center;
+     margin-left: 50px;
+ }
+
+ .social-text {
+     color: #FFF;
+     text-align: center;
+     font-family: Aclonica;
+     font-size: 25px, b;
+     font-style: normal;
+     font-weight: 400;
+     line-height: normal;
+ }
+
+ .social-icon-container {
+     display: flex;
+     gap: 10px;
+     justify-content: center;
+     margin-left: 20px;
+     margin-top: 10px;
+     margin-right: 10px;
+ }
+
+ .skills {
+     margin: 20px;
+ }
