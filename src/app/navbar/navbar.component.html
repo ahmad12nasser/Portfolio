@@ -1,32 +1,29 @@
 <section class="section">
-  <div class="box container ">
+  <div class="box div1">
     <div class="d-flex justify-content-center align-items-center">
       <nav class="navbar navbar-expand-lg navbar-light">
         <div class="container-fluid">
-          <div class="collapse navbar-nav align-items-center" id="navbarNav">
+          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#navbarOffcanvasLg" aria-controls="navbarOffcanvasLg" aria-label="Toggle navigation" (click)="toggleMenu()">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="offcanvas offcanvas-end" tabindex="-1" id="navbarOffcanvasLg" aria-labelledby="navbarOffcanvasLgLabel">
             <ul class="navbar-nav m-1 m-auto">
               <li class="nav-item">
-                <a class="nav-link" style="margin-right: 10px;" href="#">HOME</a>
+                <a class="nav-link" style="margin-right: 10px;" href="home"><strong>HOME</strong></a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" style="margin-right: 10px;" href="#">ABOUT</a>
+                <a class="nav-link" style="margin-right: 10px;" href="about"><strong>ABOUT</strong></a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" style="margin-right: 10px;" href="#">WORK</a>
+                <a class="nav-link" style="margin-right: 10px;" href="work"><strong>WORK</strong></a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" style="margin-right: 100px;" href="#">CONTACT ME</a>
+                <a class="nav-link" style="margin-right: 100px;" href="contact"><strong>CONTACT ME</strong></a>
               </li>
               <li class="nav-item">
-               <button class="nav-item btn download" style="background: #D45900;" (click)="downloadCV()">DOWNLOAD CV</button>
+               <button class="nav-item btn download" style="background: #000000;color: white;" (click)="downloadCV()">DOWNLOAD CV</button>
               </li>
             </ul>
-          </div>
-          <div class="d-flex">
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" (click)="toggleMenu()">
-              <span class="navbar-toggler-icon"></span>
-            </button>
           </div>
         </div>
       </nav>

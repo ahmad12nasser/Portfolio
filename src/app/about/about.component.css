@@ -1,0 +1,46 @@
+.container-sm {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 40px;
+    height: auto;
+    background: #026573;
+    max-width: 1000px;
+}
+
+.big-title {
+    color: #FFF;
+    font-family: Aclonica;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.sub-title {
+    color: #FFF;
+    font-family: Andika;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.text-center {
+    color: #FFF;
+    font-family: Andika;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.list-info {
+    color: #FFF;
+    font-family: Andika;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}

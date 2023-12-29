@@ -1,70 +1,57 @@
 .button {
-  background: #D45900;
+  background: #e1e0de;
   border-radius: 15px;
-  color: #f37f12;
+  color: #026573;
   border: none;
   outline: none;
   cursor: pointer;
 }
 
-@media screen and (max-width: 1000px) {
-  .form-control-sm {}
+.nav-link {
+  color: #026573;
+  text-align: center;
+  font-family: Aclonica, ui-serif;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.nav-link-btn {
+  background: #e1e0de;
+  border-radius: 15px;
+  padding: 10px 20px;
+  text-decoration: none;
+  transition: background 0.3s ease;
+  color: #FFF;
+  font-family: Aoboshi One, serif;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
 
-  .navbar-nav {
-    display: none;
+  &:hover {
+    background: #f37f12;
   }
-
+}
+@media screen and (max-width: 1000px) {
   .navbar-toggler {
     display: block;
   }
-
   .navbar-toggler.collapsed+#navbarNav {
     display: block;
   }
-
-  .nav-link {
-    color: #FFF;
-    text-align: center;
-    font-family: Aclonica, ui-serif;
-    font-size: 1228px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-  }
-
-  .nav-link-btn {
-    background: #D45900;
-    border-radius: 15px;
-    padding: 10px 20px;
-    /* Adjust padding as needed */
-    text-decoration: none;
-    /* Remove underline from the link */
-    transition: background 0.3s ease;
-    /* Add a smooth transition effect */
-    color: #FFF;
-    font-family: Aoboshi One, serif;
-    font-size: 1036px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-
-    &:hover {
-      background: #f37f12;
-      /* Change background color on hover */
-    }
-  }
-
+  
 }
 
 
-@media screen and (min-width: 1001px) {
+@media screen and (min-width: 1400px) {
 
-  /* Show the menu links */
   .navbar-nav {
     display: flex;
-  }
-
-  /* Hide the menu button */
+  } 
+.div1{
+  max-width:1140px;
+}
   .navbar-toggler {
     display: none;
   }

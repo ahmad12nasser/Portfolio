@@ -1,0 +1,31 @@
+section{
+    font-family: 'poppins', sans-serif;
+}
+.container{
+    height: auto;
+}
+.first-col{
+    background-color: white;
+    height: 500px;
+    width: 550px;
+    border-radius: 20px;
+}
+.img-fluid{
+    border-radius: 20px;
+    height: 500px;
+    filter: blur(3px);
+}
+form{
+    color: #026573;
+}
+.text-center{
+    color: #026573;
+}
+.btn{
+    background-color: #026573;
+    color: white;
+    border-radius: 20px;
+    left: 100px;
+    position: relative;
+    left: 200px;
+}
